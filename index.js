@@ -33,8 +33,8 @@ else if(randomNumber2==6)
 document.querySelector(".img2").setAttribute("src", "images/dice6.png");
 
 if(randomNumber1>randomNumber2)
-document.querySelector("h1").textContent="Vipin Wins";
+document.querySelector("h1").textContent="Vipin 👦 Wins";
 else if(randomNumber1<randomNumber2)
-document.querySelector("h1").textContent="Apeksha Wins";
+document.querySelector("h1").textContent="Apeksha 👩 Wins";
 else
 document.querySelector("h1").textContent="Draw!";
